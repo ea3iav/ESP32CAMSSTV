@@ -1,7 +1,11 @@
 # ESP32CAMSSTV
 Simple sstv picture sending for radioamateur.
 This project uses an ESP32 microcontroller with an OV2640 camera module to enable image capture, audio output, and LED control. It also includes Push-to-Talk (PTT) functionality.
+based on this project 
+http://blog.dzl.dk/2022/09/14/stand-alone-sstv-camera/
+I added possibility to add two lines of text with you call sign for example. a ptt action when pocture is sent
 
+it will make and send picture when reset is pressed or immediatelly when connected to 5v
 You need ESP32 library for arduino and a ESP32-cam board
    +------------------+
         |      ESP32       |
