@@ -21,6 +21,7 @@ You need ESP32 library for arduino and a ESP32-cam board
 
         Need to wire it accordingly to your radio input pinout. 
         
+✅ Stick with version 2.*** or downgrade to it: esp32 Espressif systems version 2.0.17 works fine in order to use this sketch
 🚀 Features
 📷 Camera Support: Captures images using the OV2640 camera module.
 🔊 Audio Output: Sends audio signals to a speaker via GPIO 14.
